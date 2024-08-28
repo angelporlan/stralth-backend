@@ -1,5 +1,5 @@
 const express = require('express');
-const { completeRoutine, getCompletedRoutines, deleteCompletedRoutine } = require('../controllers/CompletedRoutineController');
+const { completeRoutine, getCompletedRoutines, deleteCompletedRoutine } = require('../controllers/completedRoutineController');
 const { protect } = require('../middleware/authMiddleware');
 
 const router = express.Router();
